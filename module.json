@@ -1,0 +1,32 @@
+{
+	"name": "genesys_compendiums",
+	"title": "Genesys compendiums",
+	"description": "A module containing a compendium pack for Genesys system",
+	"author": "Kappa",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.6.0",
+	"compatibleCoreVersion":"0.7.9",
+	"packs": [
+    			{
+      			"name": "core_archetype",
+      			"label": "Core archetype",
+      			"path": "packs/core-archetype.db",
+      			"entity": "Item",
+      			"module": "genesys_compendiums"
+				},
+				{
+      			"name": "critical_injuries",
+      			"label": "Core archetype",
+      			"path": "packs/critical-injuries.db",
+      			"entity": "Item",
+      			"module": "genesys_compendiums"
+				},
+				{
+      			"name": "item_qualities",
+      			"label": "Core archetype",
+      			"path": "packs/item-qualities.db",
+      			"entity": "Item",
+      			"module": "genesys_compendiums"
+				}
+			]
+}
