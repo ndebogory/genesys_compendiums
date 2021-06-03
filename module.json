@@ -3,7 +3,7 @@
 	"title": "Genesys compendiums",
 	"description": "A module containing a compendium pack for Genesys system",
 	"author": "Kappa",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"minimumCoreVersion": "0.6.1",
 	"compatibleCoreVersion":"0.7.10",
 	"packs": [
