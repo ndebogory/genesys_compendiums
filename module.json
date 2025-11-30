@@ -1,16 +1,19 @@
 {
-	"name": "genesys_compendiums",
+	"id": "genesys_compendiums",
 	"title": "Genesys compendiums",
 	"description": "A module containing a compendium pack for Genesys system",
-	"author": "Kappa",
-	"version": "0.3.2",
-	"minimumCoreVersion": "0.6.1",
-	"compatibleCoreVersion":"0.8.8",
+	"authors": [{"name": "Kappa"}],
+	"version": "0.4",
+	compatibility: {
+		"minimum": "10",
+		"verified": "13"
+	},
 	"packs": [
     			{
       			"name": "core_archetype",
       			"label": "Core archetype",
       			"path": "packs/core-archetype.db",
+				"system": "genesys",
       			"entity": "Item",
       			"module": "genesys_compendiums"
 				},
@@ -18,6 +21,7 @@
       			"name": "expanded_archetypes",
       			"label": "Expanded Archetypes",
       			"path": "packs/expanded-archetypes.db",
+				"system": "genesys",
       			"entity": "Item",
       			"module": "genesys_compendiums"
 				},
@@ -25,6 +29,7 @@
       			"name": "critical_injuries",
       			"label": "Critical injuries list",
       			"path": "packs/critical-injuries.db",
+				"system": "genesys",
       			"entity": "Item",
       			"module": "genesys_compendiums"
 				},
@@ -32,6 +37,7 @@
       			"name": "item_qualities",
       			"label": "Item qualities",
       			"path": "packs/item-qualities.db",
+				"system": "genesys",
       			"entity": "Item",
       			"module": "genesys_compendiums"
 				},
@@ -39,6 +45,7 @@
       			"name": "sareer_skills",
       			"label": "Basic Career Skills",
       			"path": "packs/career_skills.db",
+				"system": "genesys",
       			"entity": "Item",
       			"module": "genesys_compendiums"
 				},
@@ -46,6 +53,7 @@
       			"name": "genesysmacros",
       			"label": "Macros library",
       			"path": "packs/genesysmacros.db",
+				"system": "genesys",
       			"entity": "Macro",
       			"module": "genesys_compendiums"
 				}
