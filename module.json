@@ -14,51 +14,45 @@
       			"label": "Core archetype",
       			"path": "packs/core-archetype.db",
 				"system": "genesys",
-      			"entity": "Item",
-      			"module": "genesys_compendiums"
+      			"type": "Item"
 				},
 				{
       			"name": "expanded_archetypes",
       			"label": "Expanded Archetypes",
       			"path": "packs/expanded-archetypes.db",
 				"system": "genesys",
-      			"entity": "Item",
-      			"module": "genesys_compendiums"
+      			"type": "Item"
 				},
 				{
       			"name": "critical_injuries",
       			"label": "Critical injuries list",
       			"path": "packs/critical-injuries.db",
 				"system": "genesys",
-      			"entity": "Item",
-      			"module": "genesys_compendiums"
+      			"type": "Item"
 				},
 				{
       			"name": "item_qualities",
       			"label": "Item qualities",
       			"path": "packs/item-qualities.db",
 				"system": "genesys",
-      			"entity": "Item",
-      			"module": "genesys_compendiums"
+      			"type": "Item"
 				},
 				{
-      			"name": "sareer_skills",
+      			"name": "career_skills",
       			"label": "Basic Career Skills",
       			"path": "packs/career_skills.db",
 				"system": "genesys",
-      			"entity": "Item",
-      			"module": "genesys_compendiums"
+      			"type": "Item"
 				},
 				{
       			"name": "genesysmacros",
       			"label": "Macros library",
       			"path": "packs/genesysmacros.db",
 				"system": "genesys",
-      			"entity": "Macro",
-      			"module": "genesys_compendiums"
+      			"type": "Macro"
 				}
 			],
 	"url": "https://github.com/ndebogory/genesys_compendiums",
     "manifest": "https://raw.githubusercontent.com/ndebogory/genesys_compendiums/master/module.json",
-    "download": "https://github.com/ndebogory/genesys_compendiums/archive/refs/tags/0.3.2.zip"
+    "download": "https://github.com/ndebogory/genesys_compendiums/archive/refs/tags/0.4.zip"
 }
