@@ -4,9 +4,9 @@
 	"description": "A module containing a compendium pack for Genesys system",
 	"authors": [{"name": "Kappa"}],
 	"version": "0.4",
-	compatibility: {
+	"compatibility": {
 		"minimum": "10",
-		"verified": "13"
+		"verified": "13",
 	},
 	"packs": [
     			{
